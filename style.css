@@ -11,7 +11,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Calibri';
-    color: bisque;
+    color: azure;
 }
 #page {
     background-color: #004A8B;
@@ -23,6 +23,7 @@ body {
 }
 #coordonees {
     margin-top: 200px;
+    padding: 20px;
     list-style-type: none;
     
 }
@@ -39,6 +40,9 @@ body {
     flex-direction: column;
     padding: 50px;
 }
+h1 {
+    font-size: 60px;
+}
 h1, h2 {
     text-align: center;
     border: #02E7F1;
@@ -46,6 +50,6 @@ h1, h2 {
     border-radius: 15px;
     padding: 10px
 }
-#formations {
-    background-color: brown;
+a {
+    color: azure;
 }
