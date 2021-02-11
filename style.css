@@ -2,29 +2,28 @@ header {
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
-    background-color: #1B2410;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #002045;
 }
 body {
     background-image: url("background.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
     font-family: 'Calibri';
+    color: bisque;
 }
 #page {
-    background-color: #F3F0FD;
-    width: 50%;
+    background-color: #004A8B;
+    width: 65%;
     margin: auto; /*pemet de centrerla page au milieu*/
     display: flex;
     opacity: 0.9;
+    border-radius: 20px;
 }
 #coordonees {
     margin-top: 200px;
     list-style-type: none;
-    background-color: #F3F0FD;
-    border-color: #735959;
-    border-style: solid;
-    border-width: 15px;
     
 }
 #photo {
@@ -38,7 +37,15 @@ body {
 #contenu {
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 h1, h2 {
     text-align: center;
+    border: #02E7F1;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px
+}
+#formations {
+    background-color: brown;
 }
