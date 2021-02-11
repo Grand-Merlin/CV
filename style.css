@@ -15,7 +15,8 @@ body {
 }
 #page {
     background-color: #004A8B;
-    width: 65%;
+    max-width: 65%;
+    width: fit-content; /*n'est plus 65% lorsqu'on reduit la taille du navigateur*/
     margin: auto; /*pemet de centrerla page au milieu*/
     display: flex;
     opacity: 0.9;
