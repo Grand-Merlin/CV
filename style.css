@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    background-color: aquamarine;
+}
+body {
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Calibri';
+}
+#page {
+    background-color:cornsilk;
+    width: 50%;
+    margin: auto; /*pemet de centrerla page au milieu*/
+    display: flex;
+    opacity: 0.9;
+}
+#coordonees {
+    background-color: crimson;
+    margin-top: 200px;
+}
+#photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 40px 25px 40px 25px;
+}
+#contenu {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
